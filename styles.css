@@ -1,0 +1,19 @@
+* {
+    font-family: sans-serif, 'Franklin Gothic Medium', 'Arial Narrow';
+}
+
+.title {
+    font-size: 38px;
+    background-color: #8b9d6f;
+    text-align: center;
+}
+
+.title.subtitle {
+    background-color: #adc784;
+}
+
+.list {
+    text-align: center;
+    background-color: #bb7d4f;
+}
+
