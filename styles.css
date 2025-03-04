@@ -1,11 +1,44 @@
 * {
     font-family: sans-serif, 'Franklin Gothic Medium', 'Arial Narrow';
+    display: border-box;
 }
 
 .title {
     font-size: 38px;
     background-color: #8b9d6f;
     text-align: center;
+    padding: 20px;
+}
+
+.contenedor-imagen {
+    display: flex;
+    justify-content: center;  /* Centra horizontalmente */
+    align-items: center;      /* Centra verticalmente */
+    height: 30vh;            /* Asegúrate de que el contenedor tenga altura */
+}
+
+img {
+    max-width: 100%;          /* Para que la imagen no se desborde */
+    max-height: 100%;         /* Para que la imagen no se desborde */
+}
+
+.content {
+    margin: auto;
+    text-align: center;
+}
+
+p {
+    width: 425px;
+    text-align: center;
+    margin: 15px auto;
+}
+
+.subtitle {
+    background-color: #e9b48b;
+    padding: 8px;
+    height: 28px;
+    width: 140px;
+    margin: auto;
 }
 
 .title.subtitle {
@@ -13,7 +46,24 @@
 }
 
 .list {
-    text-align: center;
     background-color: #bb7d4f;
+    padding: 10px 32px;
+    margin: auto;
+    height: 56px;
+    width: 56px;
 }
 
+.recipe-list {
+
+width: 200px;
+margin: 20px auto;
+}
+
+li {
+    margin: 5px 0;
+    background-color: #504b4b71;
+}
+
+a {
+    color: black;
+}
